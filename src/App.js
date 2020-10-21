@@ -135,18 +135,20 @@ const Footer = props => {
   )
 }
 
-const MainComponent = props => {
-  return (
-    <div className="rootChild">
-      <Navbar name={props.name} />
-      <main className="main">
-        {/* <Header country="Indonesia" name="Aldhan" id="Home" link="https://codepen.io/aldhaneka/full/xxOVmmO" /> */}
-        < About />
-        {/* <Projects /> */}
-        <Footer name={props.name} />
-      </main>
-    </div>
-  )
+class MainComponent extends React.Component {
+  render() {
+    return (
+      <div className="rootChild">
+        <Navbar name={props.name} />
+        <main className="main">
+          {/* <Header country="Indonesia" name="Aldhan" id="Home" link="https://codepen.io/aldhaneka/full/xxOVmmO" /> */}
+          < About />
+          {/* <Projects /> */}
+          <Footer name={props.name} />
+        </main>
+      </div>
+    )
+  }
 }
 function App() {
   return (
