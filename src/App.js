@@ -13,17 +13,13 @@ const Nav = props => {
     </nav>
   )
 }
-class Navbar extends React.Component {
-  constructor(props) {
-    super(props)
-  }
-  render() {
-    return (
-      <header className="headerNavbar">
-        <Nav name={this.props.name} />
-      </header>
-    )
-  }
+const Navbar = props => {
+  return (
+    <header className="headerNavbar">
+      <Nav name={props.name} />
+    </header>
+  )
+
 }
 
 // const Introduction = props => {
@@ -151,23 +147,19 @@ class Navbar extends React.Component {
 //   }
 // }
 
-class MainComponent extends React.Component {
-  constructor(props) {
-    super(props)
-  }
-  render() {
-    return (
-      <div className="rootChild">
-        <Navbar name={this.props.name} />
-        <main className="main">
-          {/* <Header country="Indonesia" name="Aldhan" id="Home" link="https://codepen.io/aldhaneka/full/xxOVmmO" /> */}
-          {/* < About /> */}
-          {/* <Projects /> */}
-          {/* <Footer /> */}
-        </main>
-      </div>
-    )
-  }
+const MainComponent = props => {
+
+  return (
+    <div className="rootChild">
+      <Navbar name={props.name} />
+      <main className="main">
+        {/* <Header country="Indonesia" name="Aldhan" id="Home" link="https://codepen.io/aldhaneka/full/xxOVmmO" /> */}
+        {/* < About /> */}
+        {/* <Projects /> */}
+        {/* <Footer /> */}
+      </main>
+    </div>
+  )
 }
 function App() {
   return (
