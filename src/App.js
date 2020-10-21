@@ -139,7 +139,7 @@ class MainComponent extends React.Component {
   render() {
     return (
       <div className="rootChild">
-        <Navbar name={props.name} />
+        <Navbar name={this.props.name} />
         <main className="main">
           {/* <Header country="Indonesia" name="Aldhan" id="Home" link="https://codepen.io/aldhaneka/full/xxOVmmO" /> */}
           < About />
