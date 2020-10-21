@@ -5,7 +5,7 @@ import './App.css';
 const Nav = props => {
   return (
     <nav>
-      <h2 class="logo">&lt; {props.name} &gt;&#47;</h2>
+      <h2 class="logo">&lt; {props.name} &#47;&gt;</h2>
       <ul>
         <li><a href="#header">Home</a></li>
         <li><a href="#about">About</a></li>
@@ -97,58 +97,48 @@ const Navbar = props => {
 //   )
 // }
 
-// class Projects extends React.Component {
-//   constructor(props) {
-//     super(props)
-//   }
-//   render() {
-//     return (
-//       <section id="Projects">
-//         < ProjectCard src="https://res.cloudinary.com/daaj49exo/image/upload/v1603188528/my%20projects%20/Screen_Shot_2020-10-20_at_16.26.34_fbvvbw.png" title="Tribute page" tag="website" />
-//         < ProjectCard src="https://res.cloudinary.com/daaj49exo/image/upload/v1603188528/my%20projects%20/Screen_Shot_2020-10-20_at_16.26.34_fbvvbw.png" title="Tribute page" tag="website" />
-//       </section>
-//     )
-//   }
-// }
-// const SocialMediaOnFooter = props => {
-//   return (
-//     <div className="socialMedia">
-//       <a href=""><i class="fab fa-github"></i></a>
-//       <a href=""><i class="fab fa-dev"></i></a>
-//       <a href=""><i class="fab fa-free-code-camp"></i></a>
-//       <a href=""><i class="fab fa-hackerrank"></i></a>
-//     </div>
-//   )
-// }
-// const FooterTop = props => {
-//   return (
-//     <div className="top">
-//       <div className="contact">
-//         <h2>Interested in collaborating?</h2>
-//         <a href="">Get in touch</a>
-//       </div>
-//       <SocialMediaOnFooter />
-//     </div>
-//   )
-// }
-// class Footer extends React.Component {
-//   constructor(props) {
-//     super(props)
-//   }
-//   render() {
-//     return (
-//       <footer>
-//         <FooterTop />
-//         <div className="bottom">
-//           ©2020 by Aldhaneka
-//                 </div>
-//       </footer>
-//     )
-//   }
-// }
+const Projects = props => {
+  return (
+    <section id="Projects">
+      < ProjectCard src="https://res.cloudinary.com/daaj49exo/image/upload/v1603188528/my%20projects%20/Screen_Shot_2020-10-20_at_16.26.34_fbvvbw.png" title="Tribute page" tag="website" />
+      < ProjectCard src="https://res.cloudinary.com/daaj49exo/image/upload/v1603188528/my%20projects%20/Screen_Shot_2020-10-20_at_16.26.34_fbvvbw.png" title="Tribute page" tag="website" />
+    </section>
+  )
+
+}
+const SocialMediaOnFooter = props => {
+  return (
+    <div className="socialMedia">
+      <a href=""><i class="fab fa-github"></i></a>
+      <a href=""><i class="fab fa-dev"></i></a>
+      <a href=""><i class="fab fa-free-code-camp"></i></a>
+      <a href=""><i class="fab fa-hackerrank"></i></a>
+    </div>
+  )
+}
+const FooterTop = props => {
+  return (
+    <div className="top">
+      <div className="contact">
+        <h2>Interested in collaborating?</h2>
+        <a href="">Get in touch</a>
+      </div>
+      <SocialMediaOnFooter />
+    </div>
+  )
+}
+const Footer = props => {
+  return (
+    <footer>
+      <FooterTop />
+      <div className="bottom">
+        ©2020 by {props.name}
+      </div>
+    </footer>
+  )
+}
 
 const MainComponent = props => {
-
   return (
     <div className="rootChild">
       <Navbar name={props.name} />
@@ -156,7 +146,7 @@ const MainComponent = props => {
         {/* <Header country="Indonesia" name="Aldhan" id="Home" link="https://codepen.io/aldhaneka/full/xxOVmmO" /> */}
         {/* < About /> */}
         {/* <Projects /> */}
-        {/* <Footer /> */}
+        <Footer name={props.name} />
       </main>
     </div>
   )
