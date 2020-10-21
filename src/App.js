@@ -158,12 +158,12 @@ class MainComponent extends React.Component {
   render() {
     return (
       <div className="rootChild">
-        <Navbar />
+        {/* <Navbar /> */}
         <main className="main">
-          <Header country="Indonesia" name="Aldhan" id="Home" link="https://codepen.io/aldhaneka/full/xxOVmmO" />
-          < About />
+          {/* <Header country="Indonesia" name="Aldhan" id="Home" link="https://codepen.io/aldhaneka/full/xxOVmmO" /> */}
+          {/* < About /> */}
           {/* <Projects /> */}
-          <Footer />
+          {/* <Footer /> */}
         </main>
       </div>
     )
