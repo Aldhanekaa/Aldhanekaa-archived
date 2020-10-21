@@ -109,10 +109,10 @@ const Navbar = props => {
 const SocialMediaOnFooter = props => {
   return (
     <div className="socialMedia">
-      <a href=""><i class="fab fa-github"></i></a>
-      <a href=""><i class="fab fa-dev"></i></a>
-      <a href=""><i class="fab fa-free-code-camp"></i></a>
-      <a href=""><i class="fab fa-hackerrank"></i></a>
+      <a href="https://github.com/Aldhanekaa"><i className="fab fa-github"></i></a>
+      <a href="https://dev.to/aldhaneka"><i className="fab fa-dev"></i></a>
+      <a href="https://forum.freecodecamp.org/u/aldhaneka"><i className="fab fa-free-code-camp"></i></a>
+      <a href="https://codepen.io/aldhaneka/"><i className="fab fa-codepen"></i></a>
     </div>
   )
 }
