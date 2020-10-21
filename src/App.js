@@ -45,8 +45,8 @@ class Header extends React.Component {
       <section id="header">
         <div className="container">
           <Introduction country={this.props.country} name={this.props.name} jobs={this.props.jobs} desc="I'm Aldhan, and I'm a self taught programmer from Indonesia!" />
-          <a href="#">Contact</a>
-          <a href="#" className="white">Projects</a>
+          <a href="mailto:aldhanekadev@gmail.com?subject=Hello Aldhan!">Contact</a>
+          <a href="https://github.com/Aldhanekaa" className="white">Projects</a>
         </div>
       </section>
     )
@@ -141,7 +141,7 @@ class MainComponent extends React.Component {
       <div className="rootChild">
         <Navbar name={this.props.name} />
         <main className="main">
-          {/* <Header country="Indonesia" name="Aldhan" id="Home" link="https://codepen.io/aldhaneka/full/xxOVmmO" /> */}
+          <Header country="Indonesia" name="Aldhan" id="Home" link="https://codepen.io/aldhaneka/full/xxOVmmO" />
           < About />
           {/* <Projects /> */}
           <Footer name={this.props.name} />
