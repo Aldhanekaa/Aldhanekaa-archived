@@ -3,7 +3,7 @@
 </div>  
   
 
-### <div align="center">I'm Aldhaneka, a ✨ Student ✨ </div>
+<!-- ### <div align="center">I'm Aldhaneka, a ✨ Student ✨ </div> -->
 
 - 🌱 I’m currently learning **JavaScript**
 
