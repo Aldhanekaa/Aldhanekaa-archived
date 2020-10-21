@@ -39,7 +39,7 @@ const Introduction = props => {
 }
 Introduction.defaultProps = {
   name: "John Doe",
-  jobs: "Front End Developer",
+  jobs: "Font End Developer",
   country: "Mars"
 }
 // html for welcome page
@@ -170,4 +170,10 @@ class MainComponent extends React.Component {
   }
 }
 
-export default MainComponent;
+function App() {
+  return (
+    <MainComponent />
+  );
+}
+
+export default App;
