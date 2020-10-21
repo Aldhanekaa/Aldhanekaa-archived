@@ -22,39 +22,36 @@ const Navbar = props => {
 
 }
 
-// const Introduction = props => {
-//   return (
-//     <div className="introduction">
-//       <h1>Hello, I'm <span className="blue-text"> {props.name}</span>.</h1>
-//       <h1>A <span className="yellow-text">{props.jobs}</span> from <span className="red-text">{props.country}</span>.</h1>
-//       <p>
-//         {props.desc}
-//       </p>
-//     </div>
-//   )
-// }
-// Introduction.defaultProps = {
-//   name: "John Doe",
-//   jobs: "Font End Developer",
-//   country: "Mars"
-// }
-// // html for welcome page
-// class Header extends React.Component {
-//   constructor(props) {
-//     super(props)
-//   }
-//   render() {
-//     return (
-//       <section id="header">
-//         <div className="container">
-//           <Introduction country={this.props.country} name={this.props.name} jobs={this.props.jobs} desc="I'm Aldhan, and I'm a self taught programmer from Indonesia!" />
-//           <a href="#">Contact</a>
-//           <a href="#" className="white">Projects</a>
-//         </div>
-//       </section>
-//     )
-//   }
-// }
+const Introduction = props => {
+  return (
+    <div className="introduction">
+      <h1>Hello, I'm <span className="blue-text"> {props.name}</span>.</h1>
+      <h1>A <span className="yellow-text">{props.jobs}</span> from <span className="red-text">{props.country}</span>.</h1>
+      <p>
+        {props.desc}
+      </p>
+    </div>
+  )
+}
+Introduction.defaultProps = {
+  name: "John Doe",
+  jobs: "Font End Developer",
+  country: "Mars"
+}
+// html for welcome page
+class Header extends React.Component {
+  render() {
+    return (
+      <section id="header">
+        <div className="container">
+          <Introduction country={this.props.country} name={this.props.name} jobs={this.props.jobs} desc="I'm Aldhan, and I'm a self taught programmer from Indonesia!" />
+          <a href="#">Contact</a>
+          <a href="#" className="white">Projects</a>
+        </div>
+      </section>
+    )
+  }
+}
 // // html for about section
 class About extends React.Component {
   render() {
@@ -103,6 +100,7 @@ class About extends React.Component {
 //   )
 
 // }
+
 const SocialMediaOnFooter = props => {
   return (
     <div className="socialMedia">
@@ -124,15 +122,17 @@ const FooterTop = props => {
     </div>
   )
 }
-const Footer = props => {
-  return (
-    <footer>
-      <FooterTop />
-      <div className="bottom">
-        ©2020 by {props.name}
-      </div>
-    </footer>
-  )
+class Footer extends React.Component {
+  render() {
+    return (
+      <footer>
+        <FooterTop />
+        <div className="bottom">
+          ©2020 by {this.props.name}
+        </div>
+      </footer>
+    )
+  }
 }
 
 class MainComponent extends React.Component {
