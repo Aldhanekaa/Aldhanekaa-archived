@@ -56,31 +56,28 @@ const Navbar = props => {
 //   }
 // }
 // // html for about section
-// class About extends React.Component {
-//   constructor(props) {
-//     super(props)
-//   }
-//   render() {
-//     return (
-//       <section id="about">
-//         <div className="container">
-//           <h4>Hello 👋</h4>
-//           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo ipsa molestiae iure excepturi illum, sit consequatur. Quibusdam nihil excepturi voluptatem blanditiis optio et repellat voluptatum dolore? Facere accusamus iusto veritatis asperiores corporis aut ea provident aliquam, quod expedita repellat molestias eligendi vero nobis, aliquid quae sequi aperiam atque, velit tempora natus magnam impedit earum omnis? Deleniti autem debitis voluptates officia dolorum dolore mollitia corrupti soluta, repellat ut quibusdam, a ab!</p>
+class About extends React.Component {
+  render() {
+    return (
+      <section id="about">
+        <div className="container">
+          <h4>Hello 👋</h4>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo ipsa molestiae iure excepturi illum, sit consequatur. Quibusdam nihil excepturi voluptatem blanditiis optio et repellat voluptatum dolore? Facere accusamus iusto veritatis asperiores corporis aut ea provident aliquam, quod expedita repellat molestias eligendi vero nobis, aliquid quae sequi aperiam atque, velit tempora natus magnam impedit earum omnis? Deleniti autem debitis voluptates officia dolorum dolore mollitia corrupti soluta, repellat ut quibusdam, a ab!</p>
 
-//           <div className="skills">
-//             <i className="fab fa-html5"></i>
-//             <i className="fab fa-css3-alt"></i>
-//             <i className="fab fa-js"></i>
-//             <i className="fab fa-react"></i>
-//             <i className="fab fa-sass"></i>
-//             <i className="fab fa-git-alt"></i>
-//             <i className="fab fa-github"></i>
-//           </div>
-//         </div>
-//       </section>
-//     )
-//   }
-// }
+          <div className="skills">
+            <i className="fab fa-html5"></i>
+            <i className="fab fa-css3-alt"></i>
+            <i className="fab fa-js"></i>
+            <i className="fab fa-react"></i>
+            <i className="fab fa-sass"></i>
+            <i className="fab fa-git-alt"></i>
+            <i className="fab fa-github"></i>
+          </div>
+        </div>
+      </section>
+    )
+  }
+}
 
 // const ProjectCard = (props) => {
 //   return (
@@ -144,7 +141,7 @@ const MainComponent = props => {
       <Navbar name={props.name} />
       <main className="main">
         {/* <Header country="Indonesia" name="Aldhan" id="Home" link="https://codepen.io/aldhaneka/full/xxOVmmO" /> */}
-        {/* < About /> */}
+        < About />
         {/* <Projects /> */}
         <Footer name={props.name} />
       </main>
