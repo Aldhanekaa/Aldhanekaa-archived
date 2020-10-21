@@ -121,7 +121,7 @@ const FooterTop = props => {
     <div className="top">
       <div className="contact">
         <h2>Interested in collaborating?</h2>
-        <a href="mailto:aldhanekadev@gmail.com?subject=Hello Aldhan!" target="_blank">Get in touch</a>
+        <a href="mailto:aldhanekadev@gmail.com?subject=Hello Aldhan!">Get in touch</a>
       </div>
       <SocialMediaOnFooter />
     </div>
