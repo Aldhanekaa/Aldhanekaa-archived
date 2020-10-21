@@ -144,7 +144,7 @@ class MainComponent extends React.Component {
           {/* <Header country="Indonesia" name="Aldhan" id="Home" link="https://codepen.io/aldhaneka/full/xxOVmmO" /> */}
           < About />
           {/* <Projects /> */}
-          <Footer name={props.name} />
+          <Footer name={this.props.name} />
         </main>
       </div>
     )
