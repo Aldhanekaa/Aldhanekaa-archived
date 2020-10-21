@@ -82,30 +82,30 @@ const Navbar = props => {
 //   }
 // }
 
-const ProjectCard = (props) => {
-  return (
-    <div className="card">
-      <div className="imageWrapper">
-        <img src={props.src} alt="" />
-        <div className="bg">
-          <a href={props.link} className="View">See Demo</a>
-        </div>
-      </div>
-      <h3 className="title"><a href="">{props.title}</a></h3>
-      <p className="tag">{props.tag}</p>
-    </div>
-  )
-}
+// const ProjectCard = (props) => {
+//   return (
+//     <div className="card">
+//       <div className="imageWrapper">
+//         <img src={props.src} alt="" />
+//         <div className="bg">
+//           <a href={props.link} className="View">See Demo</a>
+//         </div>
+//       </div>
+//       <h3 className="title"><a href="">{props.title}</a></h3>
+//       <p className="tag">{props.tag}</p>
+//     </div>
+//   )
+// }
 
-const Projects = props => {
-  return (
-    <section id="Projects">
-      < ProjectCard src="https://res.cloudinary.com/daaj49exo/image/upload/v1603188528/my%20projects%20/Screen_Shot_2020-10-20_at_16.26.34_fbvvbw.png" title="Tribute page" tag="website" />
-      < ProjectCard src="https://res.cloudinary.com/daaj49exo/image/upload/v1603188528/my%20projects%20/Screen_Shot_2020-10-20_at_16.26.34_fbvvbw.png" title="Tribute page" tag="website" />
-    </section>
-  )
+// const Projects = props => {
+//   return (
+//     <section id="Projects">
+//       < ProjectCard src="https://res.cloudinary.com/daaj49exo/image/upload/v1603188528/my%20projects%20/Screen_Shot_2020-10-20_at_16.26.34_fbvvbw.png" title="Tribute page" tag="website" />
+//       < ProjectCard src="https://res.cloudinary.com/daaj49exo/image/upload/v1603188528/my%20projects%20/Screen_Shot_2020-10-20_at_16.26.34_fbvvbw.png" title="Tribute page" tag="website" />
+//     </section>
+//   )
 
-}
+// }
 const SocialMediaOnFooter = props => {
   return (
     <div className="socialMedia">
