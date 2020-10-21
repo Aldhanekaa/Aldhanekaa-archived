@@ -61,7 +61,7 @@ class About extends React.Component {
     return (
       <section id="about">
         <div className="container">
-          <h4>Hello 👋</h4>
+          <h4>Hello <span role="img" aria-label="hi emoji">👋</span></h4>
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo ipsa molestiae iure excepturi illum, sit consequatur. Quibusdam nihil excepturi voluptatem blanditiis optio et repellat voluptatum dolore? Facere accusamus iusto veritatis asperiores corporis aut ea provident aliquam, quod expedita repellat molestias eligendi vero nobis, aliquid quae sequi aperiam atque, velit tempora natus magnam impedit earum omnis? Deleniti autem debitis voluptates officia dolorum dolore mollitia corrupti soluta, repellat ut quibusdam, a ab!</p>
 
           <div className="skills">
