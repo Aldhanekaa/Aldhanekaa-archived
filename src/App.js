@@ -2,29 +2,29 @@ import React from 'react';
 // import logo from './logo.svg';
 import './App.css';
 
-// const Nav = props => {
-//   return (
-//     <nav>
-//       <h2 class="logo">{props.name}</h2>
-//       <ul>
-//         <li><a href="#header">Home</a></li>
-//         <li><a href="#about">About</a></li>
-//       </ul>
-//     </nav>
-//   )
-// }
-// class Navbar extends React.Component {
-//   constructor(props) {
-//     super(props)
-//   }
-//   render() {
-//     return (
-//       <header className="headerNavbar">
-//         <Nav name="< Aldhan />" />
-//       </header>
-//     )
-//   }
-// }
+const Nav = props => {
+  return (
+    <nav>
+      <h2 class="logo">&lt; {props.name} &gt;&#47;</h2>
+      <ul>
+        <li><a href="#header">Home</a></li>
+        <li><a href="#about">About</a></li>
+      </ul>
+    </nav>
+  )
+}
+class Navbar extends React.Component {
+  constructor(props) {
+    super(props)
+  }
+  render() {
+    return (
+      <header className="headerNavbar">
+        <Nav name={this.props.name} />
+      </header>
+    )
+  }
+}
 
 // const Introduction = props => {
 //   return (
@@ -158,7 +158,7 @@ class MainComponent extends React.Component {
   render() {
     return (
       <div className="rootChild">
-        {/* <Navbar /> */}
+        <Navbar name={this.props.name} />
         <main className="main">
           {/* <Header country="Indonesia" name="Aldhan" id="Home" link="https://codepen.io/aldhaneka/full/xxOVmmO" /> */}
           {/* < About /> */}
@@ -171,7 +171,7 @@ class MainComponent extends React.Component {
 }
 function App() {
   return (
-    <MainComponent />
+    <MainComponent name="Aldhan" />
   );
 }
 
