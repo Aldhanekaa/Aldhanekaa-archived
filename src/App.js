@@ -151,25 +151,37 @@ import './App.css';
 //   }
 // }
 
-class MainComponent extends React.Component {
-  constructor(props) {
-    super(props)
-  }
-  render() {
-    return (
-      <div className="rootChild">
-        {/* <Navbar /> */}
-        <main className="main">
-          {/* <Header country="Indonesia" name="Aldhan" id="Home" link="https://codepen.io/aldhaneka/full/xxOVmmO" /> */}
-          {/* < About /> */}
-          {/* <Projects /> */}
-          {/* <Footer /> */}
-        </main>
-      </div>
-    )
-  }
+// class MainComponent extends React.Component {
+//   constructor(props) {
+//     super(props)
+//   }
+//   render() {
+//     return (
+//       <div className="rootChild">
+//         {/* <Navbar /> */}
+//         <main className="main">
+//           {/* <Header country="Indonesia" name="Aldhan" id="Home" link="https://codepen.io/aldhaneka/full/xxOVmmO" /> */}
+//           {/* < About /> */}
+//           {/* <Projects /> */}
+//           {/* <Footer /> */}
+//         </main>
+//       </div>
+//     )
+//   }
+// }
+const MainComponent = props => {
+  return (
+    <div className="rootChild">
+      {/* <Navbar /> */}
+      <main className="main">
+        {/* <Header country="Indonesia" name="Aldhan" id="Home" link="https://codepen.io/aldhaneka/full/xxOVmmO" /> */}
+        {/* < About /> */}
+        {/* <Projects /> */}
+        {/* <Footer /> */}
+      </main>
+    </div>
+  )
 }
-
 function App() {
   return (
     <MainComponent />
