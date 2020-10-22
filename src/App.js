@@ -35,7 +35,7 @@ const Introduction = props => {
 }
 Introduction.defaultProps = {
   name: "John Doe",
-  jobs: "Font End Developer",
+  jobs: "Web Developer",
   country: "Mars"
 }
 // html for welcome page
