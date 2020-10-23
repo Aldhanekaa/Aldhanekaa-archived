@@ -1,7 +1,7 @@
-<div align="center">
+<!-- <div align="center">
 <img src="https://rishavanand.github.io/static/images/greetings.gif" align="center" style="width: 100%" />
-</div>  
-  
+</div>  -->
+# Hello there 👋
 
 <!-- ### <div align="center">I'm Aldhaneka, a ✨ Student ✨ </div> -->
 
