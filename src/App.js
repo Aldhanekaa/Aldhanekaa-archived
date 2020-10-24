@@ -68,7 +68,6 @@ class About extends React.Component {
             <i className="fab fa-react"></i>
             <i className="fab fa-sass"></i>
             <i className="fab fa-git-alt"></i>
-            <i className="fab fa-github"></i>
           </div>
         </div>
       </section>
