@@ -3,7 +3,7 @@
 </div>  -->
 # Hello there 👋
 
-<!-- ### <div align="center">I'm Aldhaneka, a ✨ Student ✨ </div> -->
+<!--  ### <div align="center">I'm Aldhaneka, a ✨ Student ✨ </div> 
 
 - 🌱 I’m currently learning **JavaScript**
 
@@ -21,3 +21,4 @@
 ![GitHub](https://img.shields.io/badge/-GitHub-181717?style=flat-square&logo=github)
 
 <img align="" height="137px" src="https://github-readme-stats.vercel.app/api?username=aldhanekaa&hide_title=true&show_icons=true&include_all_commits=true&line_height=21&bg_color=graywhite&theme=white" /> <img align="" height="137px" src="https://github-readme-stats.vercel.app/api/top-langs/?username=aldhanekaa&hide_title=true&layout=compact&bg_color=graywhite&theme=white" /></a>
+-->
