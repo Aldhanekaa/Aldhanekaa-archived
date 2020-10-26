@@ -5,7 +5,7 @@
 
 <!--  ### <div align="center">I'm Aldhaneka, a ✨ Student ✨ </div> -->
 
-- 🌱 I’m currently learning **JavaScript**
+- 🌱 I’m currently learning **JavaScript**, **ReactJs**, and **Redux**
 
 - ⚡ Fun fact **I'm bad at Math**
 
