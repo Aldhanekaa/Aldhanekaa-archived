@@ -3,10 +3,13 @@
 </div>  -->
 # Hello there 👋
 
-<!--  ### <div align="center">I'm Aldhaneka, a ✨ Student ✨ </div> 
+<!--  ### <div align="center">I'm Aldhaneka, a ✨ Student ✨ </div> -->
 
 - 🌱 I’m currently learning **JavaScript**
 
+- ⚡ Fun fact **I'm bad at Math**
+
+<!--
 - ❓ Ask me about anything related to HTML, and CSS
 
 ## ⚡ Technologies
