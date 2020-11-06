@@ -7,9 +7,10 @@
 
 - 🌱 I’m currently learning **JavaScript**, **ReactJs**, and **Redux**
 
-- ⚡ Fun fact **I'm bad at Math**
 
 <!--
+- ⚡ Fun fact **I'm bad at Math**
+
 - ❓ Ask me about anything related to HTML, and CSS
 
 ## ⚡ Technologies
