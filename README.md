@@ -9,7 +9,12 @@
 
 <img align="" height="140px" src="https://github-readme-stats.vercel.app/api?username=Aldhanekaa&hide_title=true&show_icons=true&include_all_commits=true&line_height=21&bg_color=graywhite&theme=white" /> <img align="" height="140px" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Aldhanekaa&hide_title=true&layout=compact&bg_color=graywhite&theme=white&hide_border=false&langs_count=6" />
 
-<div>Checkout My Projects!</div>
+<h3>Checkout My Projects!</h3>
 
-[![ReadMe Card](https://github-readme-stats.vercel.app/api/pin/?username=Aldhanekaa&repo=Markdown-Previewer)](https://github.com/Aldhanekaa/Markdown-Previewer)   [![ReadMe Card](https://github-readme-stats.vercel.app/api/pin/?username=Aldhanekaa&repo=Drum-Machine)](https://github.com/Aldhanekaa/Drum-Machine)[![ReadMe Card](https://github-readme-stats.vercel.app/api/pin/?username=Aldhanekaa&repo=Random-Quote-Machine)](https://github.com/Aldhanekaa/Random-Quote-Machine)
+<div style="width:100%;display:flex;flex-direction:row;flex-wrap:wrap;justify-content:space-between;align-items:center;">
+  <div><a href="https://github.com/Aldhanekaa/Markdown-Previewer"><img src="https://github-readme-stats.vercel.app/api/pin/?username=Aldhanekaa&repo=Markdown-Previewer"/></div>
+   <div><a href="https://github.com/Aldhanekaa/Markdown-Previewer"><img src="https://github-readme-stats.vercel.app/api/pin/?username=Aldhanekaa&repo=Markdown-Previewer"/></div>
+</div>
+
+[![ReadMe Card](https://github-readme-stats.vercel.app/api/pin/?username=Aldhanekaa&repo=Markdown-Previewer)](https://github.com/Aldhanekaa/Markdown-Previewer)   [![ReadMe Card](https://github-readme-stats.vercel.app/api/pin/?username=Aldhanekaa&repo=Drum-Machine)](https://github.com/Aldhanekaa/Drum-Machine)[![ReadMe Card](https://github-readme-stats.vercel.app/api/pin/?username=Aldhanekaa&repo=Random-Quote-Machine)](https://github.com/Aldhanekaa/Random-Quote-Machine) [![ReadMe Card](https://github-readme-stats.vercel.app/api/pin/?username=Aldhanekaa&repo=Pomodro-Clock)](https://github.com/Aldhanekaa/Pomodro-Clock)
  
