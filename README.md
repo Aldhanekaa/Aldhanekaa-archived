@@ -5,7 +5,7 @@
 
 <!--  ### <div align="center">I'm Aldhaneka, a ✨ Student ✨ </div> -->
 
-- 🔭 I’m currently working on Huge Project
+- 🔭 I’m currently chilling ☕
 - 🌱 I’m currently learning **JavaScript**, **ReactJs**, **PHP**, **Java**, **MongoDB**, **ExpressJS**, and **Redux**
 - 😄 Pronouns: He/Him
 <!--
