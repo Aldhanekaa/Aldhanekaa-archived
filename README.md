@@ -1,2 +1,1 @@
-**Hi everyone** (He/Him)
-
+**Hi everyone** 
