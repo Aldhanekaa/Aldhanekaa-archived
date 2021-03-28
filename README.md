@@ -1,5 +1,7 @@
 <h1 align="center">Hi 👋, I'm Aldhan</h1>
-<h3 align="center">I'm junior high school student, but I love to code.</h3>
+<h3 align="center">I'm junior high school student, but I love to code</h3>
+
+🎗️ Stop Uyghur Violence China!
 
 - 🌱 I’m currently learning **C++, Typescript, Nextjs, Python**
 
