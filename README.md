@@ -8,3 +8,5 @@
 
 <p><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=aldhanekaa&" alt="aldhanekaa" /></p>
 <p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=aldhanekaa" alt="aldhanekaa" /></a> </p>
+
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Aldhanekaa&layout=compact)](https://github.com/anuraghazra/github-readme-stats)
