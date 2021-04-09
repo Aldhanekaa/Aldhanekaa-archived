@@ -3,7 +3,7 @@
 
 🎗️ Stop Uyghur Violence China!
 
-- 🌱 I’m currently learning **C++, Typescript, Nextjs, Python, Nodejs**
+- 🌱 I’m currently learning **C++, Typescript, Nextjs, Python, Nodejs, and British English**
 
 
 <p><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=aldhanekaa&" alt="aldhanekaa" /></p>
