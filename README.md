@@ -7,6 +7,4 @@
 
 
 <p><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=aldhanekaa&" alt="aldhanekaa" /></p>
-<p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=aldhanekaa" alt="aldhanekaa" /></a> </p>
-
-[![Top Langs](https://wakatime.com/share/@96ad270e-9bdc-4095-a085-d092a0792c9f/cb979cc6-9636-441c-96f3-c218c81ad089.svg)](https://github.com/anuraghazra/github-readme-stats)
+<img align="center" src="https://wakatime.com/share/@96ad270e-9bdc-4095-a085-d092a0792c9f/cb979cc6-9636-441c-96f3-c218c81ad089.svg" alt="aldhanekaa" />
