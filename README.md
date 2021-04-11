@@ -1,5 +1,5 @@
 <h1 align="center">Hi 👋, I'm Aldhan</h1>
-<h3 align="center">13 y.o. boy who love to code</h3>
+<h3 align="center">I make program (sometimes >_< )</h3>
 
 🎗️ Stop Uyghur Violence China!
 
