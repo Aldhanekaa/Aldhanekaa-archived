@@ -8,7 +8,7 @@ I make program (sometimes >\_\< )
 
 ![aldhanekaa](https://github-readme-streak-stats.herokuapp.com/?user=aldhanekaa&)
 
-![aldhanekaa](https://github-readme-stats.vercel.app/api?username=Aldhanekaa)
+<!-- ![aldhanekaa](https://github-readme-stats.vercel.app/api?username=Aldhanekaa) -->
 
 ![aldhanekaa](https://github-readme-stats.vercel.app/api/top-langs/?username=aldhanekaa)
 
