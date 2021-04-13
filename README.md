@@ -4,7 +4,7 @@ I make program (sometimes >\_\< )
 
 🎗️ Stop Uyghur Violence China!
 
-*   🌱 I’m currently learning **C++, Typescript, Nextjs, Python, Nodejs, and British English**
+*   🌱 I’m currently learning **British English and some technologies**
 
 ![aldhanekaa](https://github-readme-streak-stats.herokuapp.com/?user=aldhanekaa&)
 
