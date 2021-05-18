@@ -11,13 +11,11 @@ export default function Layout({
   children: JSX.Element | JSX.Element[]
   props: PageProps
 }) {
-  console.log(props)
-
   return (
     <React.Fragment>
-      {["/", "/about"].includes(props.uri) && <Header />}
+      <Header />
       {children}
-      {["/", "/about"].includes(props.uri) && <Footer />}
+      <Footer />
     </React.Fragment>
   )
 }

@@ -66,10 +66,10 @@ export default function Footer() {
       >
         <Text>© 2021 Aldhaneka</Text>
         <Stack direction={"row"} spacing={6}>
-          <SocialButton label={"Gitlab"} href={"#"}>
+          <SocialButton label={"Gitlab"} href="https://gitlab.com/aldhanekaa">
             <IoLogoGitlab />
           </SocialButton>
-          <SocialButton label={"Github"} href={"#"}>
+          <SocialButton label={"Github"} href="https://github.com/aldhanekaa">
             <IoLogoGithub />
           </SocialButton>
           <SocialButton label={"Discord"} href={"#"}>
