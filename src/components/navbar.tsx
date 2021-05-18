@@ -18,10 +18,10 @@ import {
   PopoverContent,
   Button,
   PopoverTrigger,
+  Heading,
 } from "@chakra-ui/react"
 import { useViewportScroll } from "framer-motion"
-import { FaMoon, FaSun, FaHeart } from "react-icons/fa"
-import { IoIosArrowDown } from "react-icons/io"
+import { FaMoon, FaSun, FaHeart, FaSearch } from "react-icons/fa"
 import {
   AiFillGithub,
   AiOutlineMenu,
@@ -29,9 +29,8 @@ import {
   AiOutlineInbox,
 } from "react-icons/ai"
 import { BsFillCameraVideoFill } from "react-icons/bs"
-import { Logo } from "@choc-ui/logo"
 
-function Header(props) {
+function Header() {
   const { toggleColorMode: toggleMode } = useColorMode()
   const text = useColorModeValue("dark", "light")
   const SwitchIcon = useColorModeValue(FaMoon, FaSun)
@@ -48,7 +47,7 @@ function Header(props) {
   const cl = useColorModeValue("gray.800", "white")
   const mobileNav = useDisclosure()
 
-  const SponsorButton = (
+  const ContributeButton = (
     <Box
       display={{ base: "none", md: "flex" }}
       alignItems="center"
@@ -310,15 +309,7 @@ function Header(props) {
         onClick={mobileNav.onClose}
       />
       <Button w="full" variant="ghost" leftIcon={<AiFillHome />}>
-        Dashboard
-      </Button>
-      <Button
-        w="full"
-        variant="solid"
-        colorScheme="brand"
-        leftIcon={<AiOutlineInbox />}
-      >
-        Inbox
+        Home
       </Button>
       <Button w="full" variant="ghost" leftIcon={<BsFillCameraVideoFill />}>
         Videos
@@ -329,6 +320,8 @@ function Header(props) {
     <React.Fragment>
       <chakra.header
         ref={ref}
+        zIndex="999"
+        boxShadow={"sm"}
         shadow={y > height ? "sm" : undefined}
         transition="box-shadow 0.2s"
         bg={bg}
@@ -336,6 +329,14 @@ function Header(props) {
         borderTopColor="brand.400"
         w="full"
         overflowY="hidden"
+        position="fixed"
+        css={{
+          backdropFilter: "saturate(180%) blur(15px)",
+          backgroundColor: useColorModeValue(
+            "rgba(255, 255, 255, 0.8)",
+            "rgba(26, 32, 44, 0.8)"
+          ),
+        }}
       >
         <chakra.div h="4.5rem" mx="auto" maxW="1200px">
           <Flex
@@ -348,35 +349,27 @@ function Header(props) {
             <Flex align="flex-start">
               <Link href="/">
                 <HStack>
-                  <Logo />
+                  <Heading as="h2" size="lg">
+                    Aldhaneka
+                  </Heading>
                 </HStack>
               </Link>
             </Flex>
             <Flex>
-              <HStack spacing="5" display={{ base: "none", md: "flex" }}>
-                <Popover>
-                  <PopoverTrigger>
-                    <Button
-                      bg={bg}
-                      color="gray.500"
-                      display="inline-flex"
-                      alignItems="center"
-                      fontSize="md"
-                      _hover={{ color: cl }}
-                      _focus={{ boxShadow: "none" }}
-                      rightIcon={<IoIosArrowDown />}
-                    >
-                      Features
-                    </Button>
-                  </PopoverTrigger>
-                  <PopoverContent
-                    w="100vw"
-                    maxW="md"
-                    _focus={{ boxShadow: "md" }}
+              <HStack spacing="5" display={{ base: "none", md: "block" }}>
+                <Link href="/about">
+                  <Button
+                    bg={bg}
+                    color="gray.500"
+                    alignItems="center"
+                    fontSize="md"
+                    _hover={{ color: cl }}
+                    _focus={{ boxShadow: "none" }}
                   >
-                    <Features />
-                  </PopoverContent>
-                </Popover>
+                    About
+                  </Button>
+                </Link>
+
                 <Button
                   bg={bg}
                   color="gray.500"
@@ -397,12 +390,21 @@ function Header(props) {
                   _hover={{ color: cl }}
                   _focus={{ boxShadow: "none" }}
                 >
-                  Pricing
+                  Projects
                 </Button>
               </HStack>
             </Flex>
             <Flex justify="flex-end" align="center" color="gray.400">
-              {SponsorButton}
+              {/* {ContributeButton} */}
+              <IconButton
+                size="md"
+                fontSize="lg"
+                aria-label={`Switch to ${text} mode`}
+                variant="ghost"
+                color="current"
+                ml={{ base: "0", md: "3" }}
+                icon={<FaSearch />}
+              />
               <IconButton
                 size="md"
                 fontSize="lg"

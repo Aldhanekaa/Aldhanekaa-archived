@@ -6,7 +6,7 @@
   "license": "0BSD",
   "scripts": {
     "build": "gatsby build",
-    "develop": "gatsby develop",
+    "develop": "GATSBY_GRAPHQL_IDE=playground gatsby develop",
     "format": "prettier --write \"**/*.{js,jsx,ts,tsx,json,md}\"",
     "start": "npm run develop",
     "serve": "gatsby serve",
@@ -19,14 +19,17 @@
     "@choc-ui/logo": "^1.0.0",
     "@emotion/react": "^11.4.0",
     "@emotion/styled": "^11.3.0",
+    "bootstrap": "^5.0.1",
     "framer-motion": "^4.1.17",
     "gatsby": "^3.4.1",
     "gatsby-plugin-emotion": "^6.5.0",
     "react": "^17.0.1",
+    "react-bootstrap": "^1.6.0",
     "react-dom": "^17.0.1",
     "react-icons": "^4.2.0"
   },
   "devDependencies": {
+    "env-cmd": "^10.1.0",
     "prettier": "2.2.1"
   },
   "repository": {
