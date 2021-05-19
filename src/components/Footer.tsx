@@ -100,7 +100,7 @@ export default function Footer() {
             mr={2}
             height="20px"
             objectFit="cover"
-            src="https://resir014.xyz/_next/static/images/cc-by-nc-sa-35157979fe2560971c103dd439f23409.svg"
+            src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png"
             alt="Segun Adebayo"
             display="inline-block"
           />
