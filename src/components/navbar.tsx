@@ -1,4 +1,4 @@
-import React from "react"
+import React, { useEffect } from "react"
 import {
   chakra,
   Flex,
@@ -319,16 +319,15 @@ function Header() {
   return (
     <React.Fragment>
       <chakra.header
-        ref={ref}
         zIndex="999"
         boxShadow={"sm"}
         shadow={y > height ? "sm" : undefined}
         transition="box-shadow 0.2s"
         bg={bg}
+        height="auto"
         borderTop="6px solid"
         borderTopColor="brand.400"
         w="full"
-        overflowY="hidden"
         position="fixed"
         css={{
           backdropFilter: "saturate(180%) blur(15px)",

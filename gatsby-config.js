@@ -4,6 +4,11 @@
  * See: https://www.gatsbyjs.com/docs/gatsby-config/
  */
 module.exports = {
+  siteMetadata: {
+    name: "Aldhanekaa",
+    about: "I'm 13, and love coding",
+    avatar: "https://avatars.githubusercontent.com/u/67791514",
+  },
   /* Your site config here */
   plugins: [
     "@chakra-ui/gatsby-plugin",
@@ -18,5 +23,13 @@ module.exports = {
         cssPropOptimization: true,
       },
     },
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `src`,
+        path: `${__dirname}/src/`,
+      },
+    },
+    "gatsby-transformer-remark",
   ],
 }

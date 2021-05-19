@@ -13,8 +13,22 @@ import {
   TabPanels,
   TabPanel,
 } from "@chakra-ui/react"
+import { useStaticQuery, graphql, Link } from "gatsby"
+import { siteMetadataI } from "../ts/graphql"
 
-export default function Home() {
+function Home() {
+  const data = useStaticQuery<siteMetadataI>(
+    graphql`
+      query {
+        site {
+          siteMetadata {
+            name
+            about
+          }
+        }
+      }
+    `
+  )
   return (
     <>
       <Flex px={4} py={32} mx="auto">
@@ -42,32 +56,42 @@ export default function Home() {
             lineHeight="shorter"
             color={useColorModeValue("gray.900", "white")}
           >
-            Aldhanekaa
+            {data.site.siteMetadata.name}
           </chakra.h1>
           <chakra.p mb={5} color="gray.500" fontSize={{ md: "lg" }}>
-            Today every company needs apps to engage their customers and run
-            their businesses. Step up your ability to build, manage, and deploy
-            great apps at scale with us.
+            {data.site.siteMetadata.about}
           </chakra.p>
           <HStack>
-            <Button
-              as="a"
-              w={{ base: "full", sm: "auto" }}
-              variant="solid"
-              colorScheme="blue"
-              size="lg"
-              mb={{ base: 2, sm: 0 }}
-            >
-              About
-            </Button>
-            <Button
-              as="a"
-              w={{ base: "full", sm: "auto" }}
-              mb={{ base: 2, sm: 0 }}
-              size="lg"
-            >
-              Read My Blog
-            </Button>
+            <Link to="/about">
+              <Button
+                as="a"
+                w={{ base: "full", sm: "auto" }}
+                variant="solid"
+                colorScheme="blue"
+                size="lg"
+                _hover={{
+                  color: useColorModeValue("", "gray.500"),
+                  cursor: "pointer",
+                }}
+                mb={{ base: 2, sm: 0 }}
+              >
+                About
+              </Button>
+            </Link>
+            <Link to="/blog">
+              <Button
+                as="a"
+                w={{ base: "full", sm: "auto" }}
+                mb={{ base: 2, sm: 0 }}
+                _hover={{
+                  color: useColorModeValue("", "gray.500"),
+                  cursor: "pointer",
+                }}
+                size="lg"
+              >
+                Read My Blog
+              </Button>
+            </Link>
           </HStack>
         </Box>
       </Flex>
@@ -107,6 +131,7 @@ export default function Home() {
             <TabList>
               <Tab>Website Projects</Tab>
               <Tab>Backend Projects</Tab>
+              <Tab>Python Projects</Tab>
             </TabList>
             <TabPanels>
               <TabPanel>
@@ -209,7 +234,10 @@ export default function Home() {
                 </Flex>
               </TabPanel>
               <TabPanel>
-                <p>two!</p>
+                <p>Here is my backend projects</p>
+              </TabPanel>
+              <TabPanel>
+                <p>Here is my python projects</p>
               </TabPanel>
             </TabPanels>
           </Tabs>
@@ -218,3 +246,5 @@ export default function Home() {
     </>
   )
 }
+
+export default Home
