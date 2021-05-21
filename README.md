@@ -1,15 +1,12 @@
-# Hi 👋, I'm Aldhan
+<h1 align="center">Hi 👋, I'm Aldhanekaa</h1>
+<h3 align="center">13 y.o boy who loves coding</h3>
 
-I make program (sometimes >\_\< )
+- 🔭 I’m currently working on **mts-technonatura-website, personal website, mts-technonatura-server**
 
-🎗️ Stop Uyghur Violence China!
 
-<!-- *   🌱 I’m currently learning **British English and some technologies** -->
+<p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=aldhanekaa&show_icons=true&locale=en" alt="aldhanekaa" /></p>
 
-![aldhanekaa](https://github-readme-streak-stats.herokuapp.com/?user=aldhanekaa&)
+<p><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=aldhanekaa&" alt="aldhanekaa" /></p>
 
-<!-- ![aldhanekaa](https://github-readme-stats.vercel.app/api?username=Aldhanekaa) -->
-
-<!-- ![aldhanekaa](https://github-readme-stats.vercel.app/api/top-langs/?username=aldhanekaa) -->
 
 ![aldhanekaa](https://github-readme-stats.vercel.app/api/wakatime?username=aldhanekaa)
