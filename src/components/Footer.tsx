@@ -80,7 +80,7 @@ export default function Footer() {
           align={{ base: "center", md: "center" }}
         >
           <Text color={useColorModeValue("gray.600", "gray.500")}>
-            © 2021 {data.site.siteMetadata.name}, this website under MIT license
+            © 2021 {data.site.siteMetadata.name}
           </Text>
           <Stack direction={"row"} spacing={6}>
             <SocialButton label={"Gitlab"} href="https://gitlab.com/aldhanekaa">
@@ -101,7 +101,7 @@ export default function Footer() {
             height="20px"
             objectFit="cover"
             src="https://resir014.xyz/_next/static/images/cc-by-nc-sa-35157979fe2560971c103dd439f23409.svg"
-            alt="Segun Adebayo"
+            alt="CC-BY-NC-SA 4.0 LICENSE"
             display="inline-block"
           />
           Code and contents are licensed under CC-BY-NC-SA 4.0. Powered by

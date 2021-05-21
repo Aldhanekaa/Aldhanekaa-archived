@@ -84,9 +84,9 @@ const BlogPost = ({
                 as="h1"
                 color={useColorModeValue("gray.600", "gray.500")}
                 fontSize={useBreakpointValue({
-                  sm: "xs",
                   base: "3sm",
-                  md: "4xl",
+                  sm: "4sm",
+                  md: "xl",
                   lg: "2xl",
                 })}
               >

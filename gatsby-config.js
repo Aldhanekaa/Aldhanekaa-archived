@@ -6,7 +6,8 @@
 module.exports = {
   siteMetadata: {
     name: "Aldhanekaa",
-    about: "I'm 13, and love coding",
+    about:
+      "I'm 13, an Indonesian person who has an interest in web technologies, mobile app technologies, Algorithms, and computer science.",
     avatar: "https://avatars.githubusercontent.com/u/67791514",
   },
   /* Your site config here */
