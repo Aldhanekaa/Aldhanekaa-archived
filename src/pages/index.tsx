@@ -113,9 +113,9 @@ function Home() {
             {data.site.siteMetadata.about}
           </chakra.p>
           <HStack>
-            <Link to="/about">
+            <Link href="/about">
               <Button
-                as="a"
+                as="div"
                 w={{ base: "full", sm: "auto" }}
                 variant="solid"
                 colorScheme="blue"
@@ -129,9 +129,9 @@ function Home() {
                 About
               </Button>
             </Link>
-            <Link to="/blog">
+            <Link href="/blog">
               <Button
-                as="a"
+                as="div"
                 w={{ base: "full", sm: "auto" }}
                 mb={{ base: 2, sm: 0 }}
                 _hover={{
