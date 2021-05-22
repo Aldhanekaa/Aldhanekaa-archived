@@ -1,5 +1,4 @@
 <h1 align="center">Hi 👋, I'm Aldhanekaa</h1>
-<h3 align="center">13 y.o boy who loves coding</h3>
 
 - 🔭 I’m currently working on **mts-technonatura-website, personal website, mts-technonatura-server**
 
@@ -10,3 +9,9 @@
 
 
 ![aldhanekaa](https://github-readme-stats.vercel.app/api/wakatime?username=aldhanekaa)
+
+<p align="center"><img align="center" src="https://metrics.lecoq.io/aldhanekaa?template=classic&activity=1&activity.limit=5&activity.days=14&activity.filter=all&activity.visibility=public&activity.timestamps=true&config.timezone=Asia%2FJakarta" alt="aldhanekaa" /></p>
+<p align="center"> 📫 Reach me out please! 😄 on: </p>
+
+<a href="https://instagram.com/aldhanekaa" target="_blank"><img src="https://img.shields.io/badge/-Instagram-e4405f?style=flat-square&logo=instagram&logoColor=white" alt="Instagram"></a>
+<p align="center"> <img src="https://komarev.com/ghpvc/?username=aldhanekaa&label=Profile%20views&color=blue&style=flat-square" alt="aldhanekaa" /> </p>
