@@ -26,6 +26,7 @@ import {
 } from "@chakra-ui/react"
 import { useStaticQuery, graphql, Link } from "gatsby"
 import { siteMetadataI } from "../ts/graphql"
+import LatestBlogPost from "../components/blogListHomeComponents"
 
 interface BlogPostI {
   pageContext: {
@@ -104,7 +105,7 @@ const BlogPost = ({
         style={{ boxSizing: "border-box" }}
         px={useBreakpointValue({ base: "25px", md: "100px" })}
       >
-        <Image src={photo} alt="naruto" objectFit="cover" />
+        <Image src={photo} width="100%" alt="naruto" objectFit="cover" />
 
         <Divider />
         <ReactMarkdown
@@ -177,6 +178,7 @@ const BlogPost = ({
           children={rawMarkdownBody}
         />
       </Box>
+      <LatestBlogPost />
     </>
   )
 }

@@ -20,6 +20,7 @@ import {
   PopoverTrigger,
   Heading,
 } from "@chakra-ui/react"
+import { Link as GatsbyLink } from "gatsby"
 import { useViewportScroll } from "framer-motion"
 import { FaMoon, FaSun, FaHeart, FaSearch } from "react-icons/fa"
 import {
@@ -346,17 +347,17 @@ function Header() {
             justifyContent="space-between"
           >
             <Flex align="flex-start">
-              <Link href="/">
+              <GatsbyLink to="/">
                 <HStack>
                   <Heading as="h2" size="lg">
                     Aldhaneka
                   </Heading>
                 </HStack>
-              </Link>
+              </GatsbyLink>
             </Flex>
             <Flex>
               <HStack spacing="5" display={{ base: "none", md: "block" }}>
-                <Link href="/about">
+                <GatsbyLink to="/about">
                   <Button
                     bg={bg}
                     color="gray.500"
@@ -367,19 +368,22 @@ function Header() {
                   >
                     About
                   </Button>
-                </Link>
+                </GatsbyLink>
 
-                <Button
-                  bg={bg}
-                  color="gray.500"
-                  display="inline-flex"
-                  alignItems="center"
-                  fontSize="md"
-                  _hover={{ color: cl }}
-                  _focus={{ boxShadow: "none" }}
-                >
-                  Blog
-                </Button>
+                <GatsbyLink to="/blog">
+                  <Button
+                    bg={bg}
+                    color="gray.500"
+                    display="inline-flex"
+                    alignItems="center"
+                    fontSize="md"
+                    _hover={{ color: cl }}
+                    _focus={{ boxShadow: "none" }}
+                  >
+                    Blog
+                  </Button>
+                </GatsbyLink>
+
                 <Button
                   bg={bg}
                   color="gray.500"

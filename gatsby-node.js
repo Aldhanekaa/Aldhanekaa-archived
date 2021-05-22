@@ -51,39 +51,40 @@ module.exports.createPages = async ({ graphql, actions }) => {
   const blogPostTemplateComponent = require.resolve("./src/templates/blog.tsx")
   const posts = await graphql(`
     query {
-      allMarkdownRemark(filter: { fields: { type: { eq: "posts" } } }) {
+      allContentfulBlogPost {
         edges {
           node {
             id
-            fields {
-              birthtime
-              slug
+            titles
+            slug
+            cover {
+              file {
+                url
+              }
             }
-            rawMarkdownBody
-
-            frontmatter {
-              title
-              photo
-              desc
+            createdAt(fromNow: true)
+            description {
+              description
             }
-            timeToRead
+            content {
+              content
+            }
+            tags
           }
         }
       }
     }
   `)
   //   console.log(blogPostTemplateComponent)
-  posts.data.allMarkdownRemark.edges.forEach(post => {
+  posts.data.allContentfulBlogPost.edges.forEach(post => {
     createPage({
       component: blogPostTemplateComponent,
-      path: `/blog/${post.node.fields.slug}`,
+      path: `/blog/${post.node.slug}`,
       context: {
-        birthtime: post.node.fields.birthtime,
-        rawMarkdownBody: post.node.rawMarkdownBody,
-        title: post.node.frontmatter.title,
-        photo: post.node.frontmatter.photo,
-        desc: post.node.frontmatter.desc,
-        timeToRead: post.node.timeToRead,
+        rawMarkdownBody: post.node.content.content,
+        title: post.node.titles,
+        photo: post.node.cover.file.url,
+        desc: post.node.description.description,
       },
     })
   })
