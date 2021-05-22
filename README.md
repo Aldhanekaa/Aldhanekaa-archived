@@ -1,5 +1,4 @@
 <h1 align="center">Hi 👋, I'm Aldhanekaa</h1>
-<h3 align="center">13 y.o boy who loves coding</h3>
 
 - 🔭 I’m currently working on **mts-technonatura-website, personal website, mts-technonatura-server**
 
