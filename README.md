@@ -1,7 +1,7 @@
 <h1 align="center">Hi 👋, I'm Aldhanekaa</h1>
 
 - 🔭 I’m currently working on **mts-technonatura-website, personal website, mts-technonatura-server**
-
+- 📚 I'm currently learning Python, and Gatsbyjs
 
 <p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=aldhanekaa&show_icons=true&locale=en" alt="aldhanekaa" /></p>
 
