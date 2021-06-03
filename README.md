@@ -1,4 +1,4 @@
-<h1 align="center">Hi 👋, I'm Aldhanekaa</h1>
+<h1 align="center">Hi 👋, I'm Aldhan</h1>
 
 - 🔭 I’m currently working on **mts-technonatura-website, personal website, mts-technonatura-server**
 - 📚 I'm currently learning Data Analysis with Python, Python, C++, and Reactjs (Deep into Reactjs technologies and libraries)
