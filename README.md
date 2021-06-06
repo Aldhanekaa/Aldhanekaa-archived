@@ -1,5 +1,7 @@
 <h1 align="center">Hi 👋, I'm Aldhan</h1>
 
+Stop Palestinian and Uyghur Violence!
+
 - 🔭 I’m currently working on **mts-technonatura-website, personal website, mts-technonatura-server**
 - 📚 I'm currently learning Data Analysis with Python, Python, C++, and Reactjs (Deep into Reactjs technologies and libraries)
 
