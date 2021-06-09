@@ -3,7 +3,7 @@
 Stop Palestinian and Uyghur Violence!
 
 - 🔭 I’m currently working on **mts-technonatura-website, personal website, mts-technonatura-server**
-- 📚 I'm currently learning Data Analysis with Python, Python, C++, and Reactjs (Deep into Reactjs technologies and libraries)
+- 📚 I'm currently learning Data Analysis with Python, Python, C++ (and also C), and Reactjs (Deep into Reactjs technologies and libraries)
 
 <p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=aldhanekaa&show_icons=true&locale=en" alt="aldhanekaa" /></p>
 
@@ -21,3 +21,4 @@ Stop Palestinian and Uyghur Violence!
 <a href="https://instagram.com/aldhanekaa" target="_blank"><img src="https://img.shields.io/badge/-Instagram-e4405f?style=flat-square&logo=instagram&logoColor=white" alt="Instagram"></a>
 <p align="center"> <img src="https://komarev.com/ghpvc/?username=aldhanekaa&label=Profile%20views&color=blue&style=flat-square" alt="aldhanekaa" /> </p>
 -->
+ 
