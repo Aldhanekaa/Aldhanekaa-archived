@@ -4,7 +4,7 @@ Stop Palestinian and Uyghur Violence!
 
 - 🔭 I’m currently working on **mts-technonatura-website, personal website, mts-technonatura-server**
 - 📚 I'm currently learning Data Analysis with Python, Python, C++ (and also C), and Reactjs (Deep into Reactjs technologies and libraries).
-- 🇬🇧 Have an interest at British Accent
+- 🇬🇧 I like listening to British Podcast
 
 <p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=aldhanekaa&show_icons=true&locale=en" alt="aldhanekaa" /></p>
 
