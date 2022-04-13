@@ -13,13 +13,18 @@
 <details>
   <summary>Front End Project Open Source Project</summary>
   
- [iMuslim Al-Matsurat](https://dzikir.imuslim.me)
-  [![mts-technonatura/mts-technonatura-website - GitHub](https://gh-card.dev/repos/mts-technonatura/mts-technonatura-website.svg)](https://github.com/mts-technonatura/mts-technonatura-website)
 </details>
 
 <details>
   <summary>Back End Project Open Source Project</summary>
   
+*Currently not working on Backend
+</details>
+
+<details>
+  <summary>Archived Projects</summary>
+  
+  [![mts-technonatura/mts-technonatura-website - GitHub](https://gh-card.dev/repos/mts-technonatura/mts-technonatura-website.svg)](https://github.com/mts-technonatura/mts-technonatura-website)
  [![technonatura/mts-technonatura-server - GitHub](https://gh-card.dev/repos/technonatura/mts-technonatura-server.svg)](https://github.com/technonatura/mts-technonatura-server)
 </details>
 
