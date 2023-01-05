@@ -35,6 +35,8 @@ others are private.
 - 🔭 Front End Technologies
 
 ![React Badge](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB) ![Next.js](https://camo.githubusercontent.com/335bfdb8941e81035404469560bf43f6dab3f0f546e6597292037458cccf8a1e/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f6e6578742e6a732d3030303030303f7374796c653d666f722d7468652d6261646765266c6f676f3d6e6578742e6a73266c6f676f436f6c6f723d7768697465) ![Gatsbyjs](https://img.shields.io/badge/Gatsby-663399?style=for-the-badge&logo=gatsby&logoColor=white) 
+![vue.js](https://img.shields.io/badge/Vue.js-35495E?style=for-the-badge&logo=vue.js&logoColor=4FC08D)
+![Nuxtjs](https://img.shields.io/badge/Nuxt-002E3B?style=for-the-badge&logo=nuxtdotjs&logoColor=#00DC82)
 
 ---
 
@@ -50,9 +52,8 @@ others are private.
 
 - 📚 I'm currently learning 
 
-![cpp badge](https://img.shields.io/badge/C%2B%2B-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white)
-![vue.js](https://img.shields.io/badge/Vue.js-35495E?style=for-the-badge&logo=vue.js&logoColor=4FC08D)
 ![python](https://img.shields.io/badge/Python-14354C?style=for-the-badge&logo=python&logoColor=white)
+![Pandas](https://img.shields.io/badge/pandas-%23150458.svg?style=for-the-badge&logo=pandas&logoColor=white)
 
 ---
 
@@ -69,7 +70,7 @@ others are private.
 ---
 
 
-- 🇬🇧 Fun Fact: I like listening to British Podcast, also currently learning Turks!
+- 🇬🇧 Fun Fact: I speak many languages, like 7 languages, but many of them are computer language.
 
 
 
