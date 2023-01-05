@@ -70,7 +70,7 @@ others are private.
 ---
 
 
-- 🇬🇧 Fun Fact: I speak many languages, like 7 languages, but many of them are computer language.
+- 🇬🇧 Fun Fact: I speak many languages, like 9 languages, but many of them are computer language.
 
 
 
