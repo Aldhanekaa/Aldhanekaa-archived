@@ -18,7 +18,12 @@
 <details>
   <summary>Back End Project Open Source Project</summary>
   
-*Currently not working on Backend
+</details>
+
+
+<details>
+  <summary>Other Field Projects</summary>
+  
 </details>
 
 <details>
@@ -43,9 +48,17 @@ others are private.
 
 - 🔭 Back End Technologies
 
+![Go](https://img.shields.io/badge/go-%2300ADD8.svg?style=for-the-badge&logo=go&logoColor=white)
+![GraphQL](https://img.shields.io/badge/-GraphQL-E10098?style=for-the-badge&logo=graphql&logoColor=white)
 ![nodejs](https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white)
 ![MongoDB](https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white)
 ![Expressjs](https://img.shields.io/badge/Express.js-404D59?style=for-the-badge)
+
+---
+
+- 🤩 Others
+
+![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=java&logoColor=white)
 
 
 ---
