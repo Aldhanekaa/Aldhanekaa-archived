@@ -83,10 +83,6 @@ others are private.
 ---
 
 
-- 🇬🇧 Fun Fact: I speak many languages, like 9 languages, but many of them are computer language.
-
-
-
 <p align="right"> 
  <img  src="https://img.shields.io/badge/Spotify-1ED760?&style=for-the-badge&logo=spotify&logoColor=white" alt="Spotify" />
   <img src="https://img.shields.io/badge/YouTube_Music-FF0000?style=for-the-badge&logo=youtube-music&logoColor=white" alt="Yt Music" />
