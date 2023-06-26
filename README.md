@@ -1,4 +1,4 @@
-<h1 align="center">Hi 👋, I'm Aldhan</h1>
+<h1 align="center">Hi 👋, I'm Aldhanekaa</h1>
 
 <p align="center"> 
  <a href="https://about.gitlab.com/">
