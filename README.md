@@ -1,6 +1,6 @@
 <h1 align="center">Hi 👋, I'm Aldhanekaa</h1>
 
-<p align="center"> 
+<p > 
  <a href="https://about.gitlab.com/">
  <img  src="https://img.shields.io/badge/GitLab-330F63?style=for-the-badge&logo=gitlab&logoColor=white" alt="Gitlab" />
  </a>
