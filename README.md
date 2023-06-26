@@ -1,6 +1,6 @@
 <h1 align="center">Hi 👋, I'm Aldhanekaa</h1>
 
-<p > 
+<p align="center"> 
  <a href="https://about.gitlab.com/">
  <img  src="https://img.shields.io/badge/GitLab-330F63?style=for-the-badge&logo=gitlab&logoColor=white" alt="Gitlab" />
  </a>
@@ -10,7 +10,7 @@
 
 ---
 
-<p align="right"> 
+<p > 
 <img align="start" src="https://github-readme-stats.vercel.app/api?username=aldhanekaa&show_icons=true&locale=en" alt="aldhanekaa" />
 <img align="start" src="https://github-readme-stats.vercel.app/api/wakatime?username=aldhanekaa" alt="aldhanekaa" />
 </p>
